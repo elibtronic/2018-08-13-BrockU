@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "lc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "Brock University"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "1812 Sir Isaac Brock Way"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "Plaza 600F, Brock University, 1812 Sir Isaac Brock Way"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "ca"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "43.117125, -79.243199" # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
@@ -41,7 +41,7 @@ eventbrite: "47365649934"          # optional: alphanumeric key for Eventbrite r
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
   width="100%"
-  height="275px"
+  height="300px"
   scrolling="auto">
 </iframe>
 {% endif %}
@@ -179,26 +179,6 @@ eventbrite: "47365649934"          # optional: alphanumeric key for Eventbrite r
 </p>
 
 <hr/>
-
-{% comment %} 
- SURVEYS - DO NOT EDIT SURVEY LINKS 
-{% endcomment %}
-<h2 id="surveys">Surveys</h2>
-
-{% if page.carpentry == "swc" %} 
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif page.carpentry == "dc" %}
-  <p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif page.carpentry == "lc" %}
-<p>Ask your instructor about pre- and post-workshop Survey details.</p>
-{% endif %}
-
-<hr/>
-
 
 {% comment %}
   SCHEDULE
