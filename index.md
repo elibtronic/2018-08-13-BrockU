@@ -216,6 +216,12 @@ eventbrite: "47365649934"          # optional: alphanumeric key for Eventbrite r
 
 <hr/>
 
+<h2 id="survey">Survey</h2>
+<a target="_blank" href="https://www.surveymonkey.com/r/lcpreworkshopsurvey?workshop_id=2018-08-13-BrockU">Pre-Workshop Survey</a>
+<a target="_blank" href="https://www.surveymonkey.com/r/lcpostworkshopsurvey?workshop_id=2018-08-13-BrockU">Post-Workshop Survey</a>
+
+<hr/>
+
 {% comment %}
   SYLLABUS
 
